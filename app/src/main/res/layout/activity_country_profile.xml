@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_country_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.finalyear.project.travelproject.CountryProfile">
+
+    <include android:id="@+id/my_toolbar"
+        layout="@layout/tool_bar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/my_toolbar">
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.27"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/country_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:id="@+id/country_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:paddingTop="16dp"
+            android:textAlignment="center" />
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_height="181dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:id="@+id/countryImageButton" />
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/profile_area"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/capital"
+                    android:text="@string/profile_capital"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textSize="14sp"
+                    android:textStyle="normal|italic"
+                    android:paddingTop="11dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currency"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="@string/profile_currency"
+                    android:textSize="14sp"
+                    android:textStyle="normal|italic"
+                    android:paddingTop="11dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:id="@+id/languages"
+                    android:text="@string/profile_languages"
+                    android:textSize="14sp"
+                    android:textStyle="normal|italic"
+                    android:paddingTop="11dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:id="@+id/weather"
+                    android:text="@string/profile_weather"
+                    android:textSize="14sp"
+                    android:textStyle="normal|italic"
+                    android:paddingTop="11dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:id="@+id/state"
+                    android:text="@string/profile_state"
+                    android:textSize="14sp"
+                    android:textStyle="normal|italic"
+                    android:paddingTop="11dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="@string/profile_conflict_status"
+                    android:id="@+id/conflict"
+                    android:textSize="14sp"
+                    android:textStyle="normal|italic"
+                    android:paddingTop="11dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="0.39"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/profile_button"
+                android:text="@string/profile_button"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/currency_button"
+                android:text="@string/currency_button"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="0.37"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/phrases_button"
+                android:text="@string/phrases_button"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/emergency_button"
+                android:text="@string/emergencyno_button"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

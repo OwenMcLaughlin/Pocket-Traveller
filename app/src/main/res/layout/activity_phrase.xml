@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_phrase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.finalyear.project.travelproject.PhraseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <include android:id="@+id/my_toolbar"
+        layout="@layout/tool_bar"/>
+
+    <TextView
+        android:id="@+id/choose_phrase_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:text="@string/choose_phrase_message"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/back_to_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Profile"
+        android:gravity="center"/>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Pocket Traveller</string>
+    <string name="search_button">Search</string>
+    <string name="map_button">Map</string>
+    <string name="recent_button">Recent</string>
+    <string name="trips_button">Trips</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="title_activity_country_profile">CountryProfile</string>
+    <string name="action_search">Search</string>
+    <string name="currency_button">Currency</string>
+    <string name="myTrips_button">My Trips</string>
+    <string name="home_button">Home</string>
+    <string name="search_for_a_country">Search for a Country:</string>
+    <string name="country_name">TextView</string>
+    <string name="profile_button">Profile</string>
+    <string name="phrases_button">Phrases</string>
+    <string name="emergencyno_button">Emergency</string>
+    <string name="profile_capital">Capital:</string>
+    <string name="profile_currency">Currency:</string>
+    <string name="profile_weather">Weather:</string>
+    <string name="profile_state">State:</string>
+    <string name="profile_languages">Languages:</string>
+    <string name="profile_conflict_status">Conflict:</string>
+    <string name="title_activity_country_tabbed">CountryTabbedActivity</string>
+    <string name="choose_language_message">Choose a Language</string>
+    <string name="choose_category_message">Choose a Category</string>
+    <string name="choose_phrase_message">Choose a Phrase</string>
+    <string name="close_button">Close</string>
+    <string name="listen_button">Listen</string>
+    <string name="translation">translation</string>
+    <string name="phrase">phrase</string>
+    <string name="title_activity_local_map">Map</string>
+    <string name="local_map_button">Local Map</string>
+    <string name="world_map_button">World Map</string>
+    <string name="spinner_hint">Select an Option</string>
+    <string name="default_info_title">default info (derry)</string>
+    <string name="default_info_snippet">default_info_snippet (derry)</string>
+    <string name="nearby_things">Things Nearby</string>
+    <string name="place_name">Place Name:</string>
+    <string name="place_address">Address:</string>
+    <string name="place_telephone">Tel:</string>
+    <string name="place_rating">Customer Rating:</string>
+    <string name="directions_button">Directions</string>
+    <string name="website_button">Website</string>
+    <string name="unknown_value">Unknown</string>
+    <string name="amount_to_convert_hint">Enter amount to convert</string>
+    <string name="convert_button">Convert</string>
+    <string name="reset_button">Reset</string>
+    <string name="to_label">to</string>
+    <string name="conversion_output">Conversion Output</string>
+    <string name="default_amount">1</string>
+
+    <string-array name="currency_array">
+        <item>EUR Euro</item>
+        <item>NOK Norwegian Kronor</item>
+        <item>USD US Dollar</item>
+        <item>GBP British Pound</item>
+    </string-array>
+
+</resources>

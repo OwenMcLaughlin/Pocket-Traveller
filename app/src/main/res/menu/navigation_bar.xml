@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--  should always be in the overflow -->
+    <item android:id="@+id/action_search"
+        android:title="@string/search_button"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_recent"
+        android:title="@string/recent_button"
+        app:showAsAction="never"/>
+
+    <item android:id="@id/action_maps"
+        android:title="@string/map_button"
+        app:showAsAction="never"/>
+
+    <item android:id="@id/action_currency"
+        android:title="@string/currency_button"
+        app:showAsAction="never"/>
+
+    <item android:id="@id/action_trips"
+        android:title="@string/myTrips_button"
+        app:showAsAction="never"/>
+
+    <item android:id="@id/action_home"
+        android:title="@string/home_button"
+        app:showAsAction="never"/>
+
+</menu>

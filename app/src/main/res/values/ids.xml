@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_maps" type="id">action_maps</item>
+    <item name="action_currency" type="id">action_currency</item>
+    <item name="action_trips" type="id">action_trips</item>
+    <item name="action_home" type="id">action_home</item>
+</resources>
